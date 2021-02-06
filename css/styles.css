@@ -60,7 +60,8 @@ header {
   display: inline-block;
   margin-top: 24px;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: 'Oleo Script', cursive;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -71,7 +72,6 @@ header {
 
 .logotype span {
   color: black;
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -309,7 +309,8 @@ footer {
 
 .logo {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: 'Oleo Script', cursive;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -326,7 +327,6 @@ footer {
 
 .logo span {
   color: var(--common-color);
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
