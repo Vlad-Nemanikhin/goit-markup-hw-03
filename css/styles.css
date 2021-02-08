@@ -18,15 +18,16 @@
 }
 
 body {
-  width: 1600px;
+
   background: var(--body-background);
   margin: 0 auto;
 }
 
 .limiter{
-margin-left: 215px;
-margin-right: 215px;
-position: relative;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 185px;
+  position: relative;
 }
 
 .visually-hidden {
@@ -43,22 +44,27 @@ position: relative;
 }
 
 header {
-  width: 100%;
+  width: 1600px;
   height: 80px;
   margin: 0 auto;
   background: var(--header-background);
   border-bottom: 1px solid var(--header-border);
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .head-navigation {
   width: auto;
-  height: 100%;
-  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 532px;
 }
 
 .logotype {
   display: inline-block;
   margin-top: 24px;
+  margin-right: 93px;
   text-decoration: none;
   font-family: 'Oleo Script', cursive;
   font-family: 'Raleway', sans-serif;
@@ -81,9 +87,7 @@ header {
 
 .menu {
   display: flex;
-  position: absolute;
-  left: 238px;
-  top: 32px;
+  align-items: flex-end;
 }
 
 .menu li {
@@ -103,9 +107,8 @@ header {
 
 .feedback {
   display: flex;
-  position: absolute;
-  top: 32px;
-  left: 863px;
+  flex-grow: 1;
+  flex-basis: 307px;
 }
 
 .feedback a {
@@ -141,16 +144,18 @@ ul a:hover, ul a:focus {
 
 .head {
   width: 1600px;
-  height: 600px;
   background: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .t-head {
-  position: absolute;
+  display: block;
   width: 696px;
-  height: 120px;
-  left: 237px;
-  top: 280px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -158,17 +163,16 @@ ul a:hover, ul a:focus {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color:var(--common-color);
+  color: var(--common-color);
 }
 
 .main-link {
   display: block;
-  position: absolute;
-  margin-top: 0px;
-  width: 200px;
-  height: 50px;
-  left: 485px;
-  top: 430px;
+  margin-top: 30px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -221,7 +225,9 @@ ul a:hover, ul a:focus {
 }
 
 .t-photo {
-  margin: 0 0 50px 397px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -246,7 +252,7 @@ ul a:hover, ul a:focus {
 }
 
 .team {
-  width: 100%;
+  width: 1600px;
   background: #f5f4fa;
   height: 648px;
 }
@@ -301,7 +307,7 @@ ul a:hover, ul a:focus {
 }
 
 footer {
-  width: 100%;
+  width: 1600px;
   height: 252px;
   background: var(--footer-background);
   position: relative;
@@ -392,9 +398,7 @@ footer .footer-links {
 }
 
 .services-btn button {
-  display: block;
-  width: 100%;
-  height: 100%;
+  display: inline-block;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
