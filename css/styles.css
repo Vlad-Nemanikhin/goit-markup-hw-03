@@ -6,7 +6,7 @@
 }
 
 :root {
-  --common-width: 1600px;
+  --common-width: 100%;
   --section-margin: 94px;
   --inner-section-margin: 50px;
   --card-margin: 30px;
@@ -46,8 +46,7 @@ ul > li {
 .container{
   width: 1200px;
   padding: 0 15px;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
