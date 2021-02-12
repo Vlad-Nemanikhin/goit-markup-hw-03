@@ -7,7 +7,7 @@
 
 :root {
   --common-width: 100%;
-  --section-margin: 94px;
+  --section-padding: 94px;
   --inner-section-margin: 50px;
   --card-margin: 30px;
   
@@ -103,7 +103,7 @@ header {
 
 .main-navigation {
   display: flex;
-  margin-left: var(--section-margin);
+  margin-left: var(--section-padding);
 }
 
 .main-navigation li:not(:last-child) {
@@ -155,7 +155,6 @@ ul a:hover, ul a:focus, ul a:active {
   width: var(--common-width);
   background: #2f303a;
   padding: 200px 0;
-  margin-bottom: var(--section-margin);
 }
 
 .title-head {
@@ -199,7 +198,8 @@ ul a:hover, ul a:focus, ul a:active {
 
 .main-information {
   width: var(--common-width);
-  margin-bottom: var(--section-margin);
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .information {
@@ -239,7 +239,7 @@ ul a:hover, ul a:focus, ul a:active {
 /*Section 3*/
 
 .activity{
-  margin-bottom: var(--section-margin);
+  padding-bottom: var(--section-padding);
 }
 
 .title-container {
@@ -274,8 +274,8 @@ ul a:hover, ul a:focus, ul a:active {
 .team {
   width: var(--common-width);
   background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .title-team {
@@ -398,7 +398,7 @@ address p {
   width: var(--common-width);
   margin: 0px auto;
   padding-top: var(--section-margin);
-  padding-bottom: var(--section-margin);
+  padding-bottom: var(--section-padding);
 }
 
 .services-btn {
